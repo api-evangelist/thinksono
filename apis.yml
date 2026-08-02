@@ -1,8 +1,29 @@
 aid: thinksono
-name: Thinksono
-description: Thinksono is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: ThinkSono
+description: >-
+  ThinkSono is a medical technology company that develops AI-powered ultrasound
+  software enabling non-specialist clinicians to detect deep vein thrombosis
+  (DVT) blood clots at the point of care. Its real-time AI guidance walks a
+  clinician through capturing and interpreting a compression ultrasound scan,
+  compressing what is typically a full-day specialist referral pathway into an
+  approximately 30-minute point-of-care assessment. The product is positioned
+  for hospital and primary-care settings (including NHS deployments) to reduce
+  DVT diagnostic waiting times. ThinkSono is a portfolio company of Speedinvest.
+  It is a B2B medical-device software business and does not currently publish a
+  public developer API, SDK, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/thinksono/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://thinksono.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Medical Devices
+- Artificial Intelligence
+- Ultrasound
+- Diagnostics
+- MedTech
+- Digital Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/thinksono-domain-security.yml
+- type: Website
+  url: https://thinksono.com
+- type: TrustCenter
+  url: https://app.eu.vanta.com/thinksono.com/trust/3i6vna1g4yqb5sdjzrjxl3
+- type: TermsOfService
+  url: https://thinksono.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://thinksono.com/privacy-policy
+- type: Support
+  url: https://thinksono.com/contact
+- type: Twitter
+  url: https://twitter.com/thinksono
+- type: LinkedIn
+  url: https://www.linkedin.com/company/thinksono
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
